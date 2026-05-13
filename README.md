@@ -1,6 +1,6 @@
 # Nexfolio
 
-Nexfolio is an AI-powered resume-to-portfolio generator that converts a resume PDF into a responsive personal portfolio website with automatic content generation, live preview, and downloadable export support.
+Nexfolio is a full-stack AI-powered resume-to-portfolio generator that converts a resume PDF into a responsive personal portfolio website with automatic content generation, live preview, and downloadable export support.
 
 **Live Demo:** https://nexfolio-resume-live.vercel.app/  
 **Source Code:** Private  
@@ -10,49 +10,11 @@ Nexfolio is an AI-powered resume-to-portfolio generator that converts a resume P
 
 # Project Overview
 
-Nexfolio was built to simplify portfolio creation for students, developers, and professionals who want a fast and automated way to build a modern portfolio website from their resume.
+Nexfolio simplifies portfolio creation for students, developers, and professionals by automatically transforming resume data into a modern portfolio website.
 
-Instead of manually designing sections and writing portfolio content, users can upload a resume PDF and let the system automatically extract, organize, and generate a structured portfolio website.
+Instead of manually designing pages and writing portfolio sections, users can upload a resume PDF and let the platform extract, organize, and generate a structured personal portfolio automatically.
 
-The platform focuses on the complete pipeline:
-
-- Resume upload
-- Resume parsing
-- AI-based understanding
-- Structured data generation
-- Portfolio rendering
-- Preview workflow
-- ZIP export
-
----
-
-# How It Works
-
-1. Upload a resume PDF
-2. Backend extracts resume text
-3. AI analyzes the resume content
-4. Structured portfolio data is generated
-5. Portfolio sections are rendered automatically
-6. User previews the generated website
-7. Final portfolio can be exported as downloadable files
-
----
-
-# Portfolio Generation Pipeline
-
-```text
-Resume PDF
-   ↓
-PDF Text Extraction
-   ↓
-AI-Based Resume Understanding
-   ↓
-Structured Portfolio Data
-   ↓
-Generated Portfolio Website
-   ↓
-Preview + ZIP Export
-```
+The platform focuses on the complete workflow from resume upload to AI-based understanding, portfolio generation, preview, and export.
 
 ---
 
@@ -62,14 +24,45 @@ Preview + ZIP Export
 - Automatic portfolio content generation
 - Resume-based project extraction
 - Skills and experience parsing
+- Dynamic portfolio rendering
 - Portfolio preview system
 - Downloadable ZIP export
 - Multiple portfolio template support
-- Full-stack architecture
-- Backend resume processing pipeline
-- Dynamic frontend rendering
-- Structured section generation
 - Responsive portfolio layouts
+- Full-stack resume processing pipeline
+- Structured section generation
+- AI + rule-based parsing workflow
+
+---
+
+# Portfolio Generation Workflow
+
+```text
+User uploads resume PDF
+        |
+PDF text extraction begins
+        |
+AI analyzes resume content
+        |
+Structured portfolio data is generated
+        |
+Portfolio website is rendered
+        |
+Preview becomes available
+        |
+Final portfolio exported as ZIP
+```
+
+---
+
+# Demo Workflow
+
+1. Open the live deployment
+2. Upload a resume PDF
+3. Nexfolio extracts and analyzes the resume
+4. Portfolio sections are generated automatically
+5. Preview the generated portfolio website
+6. Export the final portfolio files
 
 ---
 
@@ -114,42 +107,19 @@ Generated portfolios can include:
 
 ---
 
-# Backend Workflow
+# Backend Processing Pipeline
 
-```text
-User uploads resume
-        |
-PDF text extraction begins
-        |
-Resume content cleaned and processed
-        |
-Gemini AI analyzes structured information
-        |
-Fallback parsing handles missing sections
-        |
-Portfolio JSON structure generated
-        |
-Frontend renders portfolio dynamically
-        |
-Preview and export become available
-```
+| Stage | Responsibility |
+|---|---|
+| Resume Upload | PDF file intake |
+| Text Extraction | Resume content extraction |
+| AI Processing | Resume understanding using Gemini |
+| Fallback Parsing | Rule-based recovery parsing |
+| Structured Data | Portfolio JSON generation |
+| Frontend Rendering | Dynamic portfolio creation |
+| Export System | ZIP export preparation |
 
----
-
-# AI Processing Features
-
-The AI pipeline is designed to identify and structure:
-
-- Personal information
-- Skills
-- Technical stacks
-- Experience details
-- Education records
-- Project descriptions
-- Contact information
-- Social profiles
-
-The system also includes rule-based fallback parsing to improve reliability when resumes contain inconsistent formatting.
+The system combines AI-based understanding with rule-based parsing to improve reliability across different resume formats.
 
 ---
 
@@ -165,7 +135,6 @@ Verified checks include:
 - Dynamic section generation
 - ZIP export testing
 - Frontend preview testing
-- API endpoint validation
 - Multi-resume compatibility testing
 
 ---
@@ -174,10 +143,10 @@ Verified checks include:
 
 - Resume parsing quality depends on resume formatting
 - AI-generated outputs may occasionally require manual refinement
-- Highly complex resume layouts may affect extraction accuracy
-- Public repository does not include production source code
+- Complex resume layouts may affect extraction accuracy
+- Full production source code remains private
 
-This repository exists only for project showcase, workflow explanation, and recruiter preview.
+This repository exists for recruiter showcase, workflow explanation, and technical project presentation.
 
 ---
 
@@ -185,13 +154,26 @@ This repository exists only for project showcase, workflow explanation, and recr
 
 - Full-stack application development
 - AI-assisted document understanding
-- Resume parsing pipelines
+- Resume parsing workflows
 - Dynamic website generation
 - Backend API architecture
 - Structured data transformation
-- Frontend rendering systems
-- File upload and export workflows
-- AI + web integration workflows
+- File upload and export systems
+- AI-integrated frontend workflows
+
+---
+
+# Screenshots
+
+Screenshots are included in this repository to showcase the UI, workflow, generated portfolios, and overall project experience.
+
+---
+
+# Current Status
+
+Nexfolio is deployed and functioning as a complete AI-powered resume-to-portfolio generation platform.
+
+The public repository is intended for project showcase, architecture overview, and technical demonstration purposes.
 
 ---
 
